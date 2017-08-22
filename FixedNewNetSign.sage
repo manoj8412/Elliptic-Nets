@@ -1,5 +1,4 @@
-#attach('/Users/manojkumar/Documents/Scripts/EllNet.sage ')
-attach('/Users/manojkumar/Dropbox/Scripts/EllNet.sage')
+attach("path/EllNet.sage")
 def NetSign(V, P, Q):
 
     if Q.curve() != P.curve():
